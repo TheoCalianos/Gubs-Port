@@ -17,6 +17,7 @@ public class UIManager : MonoBehaviour
         return _instance;
       }
     }
+    public CreateJoinPannel CreateJoinPannel;
     public SplashPagePanel SplashPagePanel;
     public StartPanel StartPanel;
     List<GameObject> Panels = new List<GameObject>();
