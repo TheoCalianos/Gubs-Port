@@ -6,7 +6,7 @@ public class StartPanel : MonoBehaviour
 {
   public void loadnext()
   {
-    UIManager.Instance.CreateJoinPannel.gameObject.SetActive(true);
+    //UIManager.Instance.CreateJoinPannel.gameObject.SetActive(true);
     this.gameObject.SetActive(false);
   }
 }
